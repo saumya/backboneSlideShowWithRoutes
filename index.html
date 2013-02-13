@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+	<title>BackboneJS : Introduction</title>
+	
+	<link type="text/css" rel="stylesheet" href="assets/css/normalize-2.1.0.css" />
+	<link type="text/css" rel="stylesheet" href="assets/vendorLibs/bootstrap/css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="assets/css/appMain.css" />
+	
+</head>
+<body>
+	<div id="applicationContainer" class="container">
+		<div id="idSlides" class="bgGrey midText midHigh"></div>
+		<span class="label"><i class="icon-wrench"></i> BackboneJS</span>
+		<span class="label"><i class="icon-wrench"></i> Bootstrap</span>
+	</div>
+	
+	<!-- Begin : Templating -->
+	<script id="slide_template" type="text/template">
+		<div>
+			<h1><span class="thickGroovText"><% print(pageTitle); %> </span><small><%= subTitle %></small></h1>
+		  	<div class="descStyle"><%= description %></div>
+		  	<div class="thinGroovText"><%= punchLine %></div>
+		  	<div class="footerNav">
+				<a id="btnBack" class="btn btn-primary" href="#">Back</a>
+				<a id="btnNext" class="btn btn-primary" href="#">Next</a>
+			</div>
+			<div class="slideNum">Slide Number : <%= pageNumber %></div>	
+		  	<div class="authorName">By : Saumya</div>
+		</div>
+	</script>
+	<!-- End : Templating -->
+	<!-- initialise the application -->
+	<script data-main="src/appMain.js" src="assets/js/require-2.1.4.js"></script>	
+</body>

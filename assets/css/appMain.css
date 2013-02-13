@@ -1,0 +1,89 @@
+/*
+body {
+        padding-top: 0px;
+        padding-bottom: 40px;
+      }
+*/
+/* Custom container */
+/*
+.container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+        background-color: #CCCCCC;
+        text-align: center;
+      }
+*/
+body {
+	padding-top: 0px;
+}
+.bgGrey {
+	background-color: #CCCCCC;
+}
+.midText {
+	text-align: center;
+}
+.midHigh {
+	min-height: 400px;
+}
+.descStyle {
+	min-height: 200px;
+	font-size: 20px;
+	color: #7608AA;
+	text-shadow: -1px -1px 1px #DDDDDD,
+				1px 1px 2px #DDDDDD;
+	
+	
+}
+.slideNum {
+	margin-top: 10px;
+	
+	font-size: 20px;
+	color: #444444;
+	text-shadow: -1px -1px 1px #DDDDDD,
+				1px 1px 1px #EEEEEE;
+	
+}
+.footerNav {
+	margin-top: 50px;
+}
+
+
+.authorName {
+	font-size: 16px;
+	color: #777777;
+	text-shadow: -1px -1px 2px #DDDDDD, 1px 1px 2px #DDDDDD;
+}
+
+/*
+#slideTitle {
+	font-size: 50px;
+	background-color: #565656;
+  	color: transparent;
+  	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+  	-webkit-background-clip: text;
+    -moz-background-clip: text;
+          background-clip: text;
+}
+*/
+
+small {
+	text-shadow: -1px -1px 1px #333333,
+				1px 1px 1px #EEEEEE;
+}
+.shadowedText {
+	color: #DDDDDD;
+	text-shadow: -1px -1px 1px #333333,
+				1px 1px 1px #EEEEEE;
+}
+.thinGroovText{
+	font-size: 30px;
+	color: #444444;
+	text-shadow: -1px -1px 1px #DDDDDD,
+				1px 1px 1px #EEEEEE;
+}
+.thickGroovText{
+	font-size: 40px;
+	color: #444444;
+	text-shadow: -1px -1px 1px #DDDDDD,
+				1px 1px 1px #EEEEEE;
+}

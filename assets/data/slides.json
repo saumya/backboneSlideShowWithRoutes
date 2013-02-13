@@ -1,0 +1,226 @@
+[
+ {
+   "pageNumber": 1,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "A little history and some links.",
+   "description": "home : http://backbonejs.org/ <br/> github : https://github.com/documentcloud/backbone/ <br/> parent company : http://www.documentcloud.org/home <br/><br/> It gives structure to web applications. <br/><br/> Model View Controller <br/>or<br/> MVC"
+ },
+ {
+   "pageNumber": 2,
+   "pageTitle": "Backbone JS",
+   "subTitle": "MV*",
+   "punchLine": "What's structure?!",
+   "description": "<a href='http://coding.smashingmagazine.com/2012/07/27/journey-through-the-javascript-mvc-jungle/'>Journey Through The JavaScript MVC Jungle</a> <br/> <a href='http://addyosmani.github.com/todomvc/'>TodoMVC</a> <br/> <a href='http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller'>WIKI</a> <br/><br/> Model-View-ViewModel</br>Model–view–adapter<br/>Model–view–presenter"
+ },
+ {
+   "pageNumber": 3,
+   "pageTitle": "Backbone JS",
+   "subTitle": "and the Web",
+   "punchLine": "Data-UI-Logic",
+   "description": "A web page in very basic form contains the structure in itself."
+ },
+ {
+   "pageNumber": 4,
+   "pageTitle": "Backbone JS",
+   "subTitle": ".html .js .css",
+   "punchLine": "Really !",
+   "description": "html file is content(model), js is controller, css for view"
+ },
+ {
+   "pageNumber": 5,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "jQuery",
+   "description": "Tell me about it and everything else is just fine."
+ },
+ {
+   "pageNumber": 6,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "Lets think.",
+   "description": "is it DOM manupilation that we need and thats the only thing ?!"
+ },
+ {
+   "pageNumber": 7,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "All this for maintaining our own application. CODE and DESIGN .",
+   "description": "Only DOM manupilation is not enough. Lets say we are done with the view. But then we need a way to manage data(model) and need a way to bind all data and view together (controller). <br/> And that should be as easy as using jQuery. "
+ }, 
+ {
+   "pageNumber": 8,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "write less, do more.",
+   "description": "The jQuery philosophy is nice to follow."
+ },
+ {
+   "pageNumber": 9,
+   "pageTitle": "Backbone JS",
+   "subTitle": "essentials",
+   "punchLine": "Tools",
+   "description": "<a href='http://www.smashingmagazine.com/2010/04/29/grid-based-web-design-simplified/'>Grid system for CSS.</a><br />JS Frameworks for logic<br/>Pre-processors<br/><a href='http://coffeescript.org/'>CoffeeScript for javascript</a><br/><a href='http://lesscss.org/'>LESS for CSS</a><br/><br/><br/> BackboneJS : The framework we will look into now."
+ },
+ {
+   "pageNumber": 10,
+   "pageTitle": "Backbone JS",
+   "subTitle": "MV*",
+   "punchLine": "MV*",
+   "description": "This is a MV* framework and not MVC."
+ },
+ {
+   "pageNumber": 11,
+   "pageTitle": "Backbone JS",
+   "subTitle": "MV*",
+   "punchLine": "C for Collection",
+   "description": "At least not Model, View and Controller.<br/> Rather 'c' stands for 'Collection' here in BackboneJS."
+ },
+ {
+   "pageNumber": 12,
+   "pageTitle": "Backbone JS",
+   "subTitle": "MV*",
+   "punchLine": "Model View Collection",
+   "description": "The basic"
+ },
+ {
+   "pageNumber": 13,
+   "pageTitle": "Backbone JS",
+   "subTitle": "MV*",
+   "punchLine": "Model View Collection Events History Router Utility",
+   "description": "And some more"
+ },  
+ {
+   "pageNumber": 14,
+   "pageTitle": "Backbone JS",
+   "subTitle": "MV*",
+   "punchLine": "RequireJS UnderscoreJS",
+   "description": "heavy dependency on other frameworks or libraries"
+ },
+ {
+   "pageNumber": 15,
+   "pageTitle": "Backbone JS",
+   "subTitle": "MV*",
+   "punchLine": "plays nice with other frameworks",
+   "description": "we can pick and choose."
+ },
+ {
+   "pageNumber": 16,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "All .js include tags are gone.",
+   "description": "Thats RequireJS in action."
+ },
+ {
+   "pageNumber": 17,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "All .js include tags are gone.",
+   "description": "Thats RequireJS in action.<br/><br/> script data-main='src/appMain' src='assets/js/require-2.1.4.js'	"
+ },
+ {
+   "pageNumber": 18,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "Define all your dependencies at one point.",
+   "description": "Thats RequireJS in action."
+ }, 
+ {
+   "pageNumber": 19,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "Demo",
+   "description": "Thats RequireJS in action."
+ },
+ {
+   "pageNumber": 20,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "CommonJS",
+   "description": "A little introduction to CommonJS and what requireJS does.<br/> Introduction to modules."
+ },  
+ {
+   "pageNumber": 21,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "RequireJS Shim configuration" ,
+   "description": "What if the library we choose does not comply to CommonJS ? <br/> RequireJS Shim config to rescue."
+ },
+ {
+   "pageNumber": 22,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "Demo",
+   "description": "RequireJS Shim configuration"
+ },
+ {
+   "pageNumber": 23,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "Model",
+   "description": "This is a model class <br/> var SlideModel = Backbone.Model.extend({});"
+ },
+ {
+   "pageNumber": 24,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "Demo",
+   "description": "This is a model class <br/> var SlideModel = Backbone.Model.extend({});"
+ },
+ {
+   "pageNumber": 25,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "Collection",
+   "description": "Collection is a collection of models. <br/> This is a collection class <br/> var SlidesCollection = Backbone.Collection.extend({});"
+ },
+ {
+   "pageNumber": 26,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "View",
+   "description": "View class here is responsible for rendering the view<br/> and manage as a glue between Collection and view."
+ },
+ {
+   "pageNumber": 27,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "What ?!",
+   "description": "View class here is responsible for rendering the view<br/> and manage as a glue between Collection and view."
+ },
+ {
+   "pageNumber": 28,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "View / Controller / Partial View",
+   "description": "Well, <br/> whatever it is. <br/> It has the logic of getting data, rendering view. "
+ }, 
+ {
+   "pageNumber": 29,
+   "pageTitle": "Backbone JS",
+   "subTitle": "Lets Simplify.",
+   "punchLine": "demo",
+   "description": ""
+ },
+ {
+   "pageNumber": 30,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "And we broke the back button of browser.",
+   "description": ""
+ },
+ {
+   "pageNumber": 31,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "The fix ! Router",
+   "description": ""
+ },
+ {
+   "pageNumber": 32,
+   "pageTitle": "Backbone JS",
+   "subTitle": "",
+   "punchLine": "Thank you.",
+   "description": ""
+ }
+]

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<slides>
+	<slide pageNumber='1' pageTitle='d' subTitle="" punchLine="f">
+		<description>
+			<![CDATA[
+				1
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='2' pageTitle='Backbone JS' subTitle="MV*" punchLine="What's structure?!">
+		<description>
+			<![CDATA[
+				<a href='http://coding.smashingmagazine.com/2012/07/27/journey-through-the-javascript-mvc-jungle/'>Journey Through The JavaScript MVC Jungle</a> <br/> 
+				<a href='http://addyosmani.github.com/todomvc/'>TodoMVC</a> <br/> 
+				<a href='http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller'>WIKI</a> <br/><br/> 
+				Model-View-ViewModel</br>Model–view–adapter<br/>Model–view–presenter
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='3' pageTitle='Backbone JS' subTitle="and the Web" punchLine="Data-UI-Logic">
+		<description>
+			<![CDATA[
+				A web page in very basic form contains the structure in itself.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='4' pageTitle='Backbone JS' subTitle=".html .js .css" punchLine="Really !">
+		<description>
+			<![CDATA[
+				html file is content(model), js is controller, css is view
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='5' pageTitle='Backbone JS' subTitle="" punchLine="jQuery">
+		<description>
+			<![CDATA[
+				Tell me about it and everything else is just fine.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='6' pageTitle='Backbone JS' subTitle="" punchLine="Lets think.">
+		<description>
+			<![CDATA[
+				Is it DOM manupilation that we need and thats the only thing ?!
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='7' pageTitle='Backbone JS' subTitle="" punchLine="All this for maintaining our own application. CODE and DESIGN .">
+		<description>
+			<![CDATA[
+				Only DOM manipulation is not enough. <br />
+				Lets say we are done with the view. <br />
+				But then we need a way to manage data(model) and need a way to bind all, <br/>
+				data and view together (controller). <br/><br/>
+				And that should be as easy as using jQuery. 
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='8' pageTitle='Backbone JS' subTitle="" punchLine="Write less, do more.">
+		<description>
+			<![CDATA[
+				The jQuery philosophy is nice to follow.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='9' pageTitle='Backbone JS' subTitle="essentials" punchLine="Tools">
+		<description>
+			<![CDATA[
+				<a href='http://www.smashingmagazine.com/2010/04/29/grid-based-web-design-simplified/'>Grid system for CSS.</a><br />
+				JS Frameworks for logic<br/>Pre-processors<br/>
+				<a href='http://coffeescript.org/'>CoffeeScript for javascript</a><br/>
+				<a href='http://lesscss.org/'>LESS for CSS</a><br/><br/><br/> 
+				BackboneJS : The framework we will look into now.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='10' pageTitle='Backbone JS' subTitle="MV*" punchLine="MV*">
+		<description>
+			<![CDATA[
+				This is a MV* framework and not MVC.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='11' pageTitle='Backbone JS' subTitle="MV*" punchLine="C for Collection">
+		<description>
+			<![CDATA[
+				At least not Model, View and Controller.<br/> 
+				Rather 'C' stands for 'Collection' here in BackboneJS.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='12' pageTitle='Backbone JS' subTitle="MV*" punchLine="Model View Collection">
+		<description>
+			<![CDATA[
+				The basic
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='13' pageTitle='Backbone JS' subTitle="MV*" punchLine="Model View Collection Events History Router Utility">
+		<description>
+			<![CDATA[
+				.. and some more
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='14' pageTitle='Backbone JS' subTitle="MV*" punchLine="RequireJS UnderscoreJS">
+		<description>
+			<![CDATA[
+				heavy dependency on other frameworks or libraries
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='15' pageTitle='Backbone JS' subTitle="MV*" punchLine="plays nice with other frameworks">
+		<description>
+			<![CDATA[
+				we can pick and choose
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='16' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="All .js include tags are gone.">
+		<description>
+			<![CDATA[
+				Thats RequireJS in action.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='17' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="All .js include tags are gone.">
+		<description>
+			<![CDATA[
+				Thats RequireJS in action.<br/><br/> 
+				script data-main='src/appMain' src='assets/js/require-2.1.4.js'
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='18' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="Define all your dependencies at one point.">
+		<description>
+			<![CDATA[
+				Thats RequireJS in action.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='19' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="Demo">
+		<description>
+			<![CDATA[
+				Thats RequireJS in action.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='20' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="CommonJS">
+		<description>
+			<![CDATA[
+				A little introduction to CommonJS and what requireJS does.<br/> 
+				Introduction to modules.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='21' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="RequireJS Shim configuration">
+		<description>
+			<![CDATA[
+				What if the library we choose does not comply to CommonJS ? <br/> 
+				RequireJS Shim config to rescue.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='22' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="Demo">
+		<description>
+			<![CDATA[
+				RequireJS Shim configuration
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='23' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="Model">
+		<description>
+			<![CDATA[
+				This is a model class <br/> <br/>
+				var SlideModel = Backbone.Model.extend({ });
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='24' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="Demo">
+		<description>
+			<![CDATA[
+				This is a model class <br/> <br/>
+				var SlideModel = Backbone.Model.extend({ });
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='25' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="Collection">
+		<description>
+			<![CDATA[
+				Collection is a collection of models. <br/> 
+				This is a collection class <br/> <br/>
+				var SlidesCollection = Backbone.Collection.extend({ });
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='26' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="View">
+		<description>
+			<![CDATA[
+				View class here is responsible for rendering the view<br/> 
+				and manage as a glue between Collection and view.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='27' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="What?!">
+		<description>
+			<![CDATA[
+				View class here is responsible for rendering the view<br/> 
+				and manage as a glue between Collection and view.
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='28' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="View / Controller / Partial View">
+		<description>
+			<![CDATA[
+				Well, <br/> whatever it is. <br/> It has the logic of getting data, rendering view. <br/><br/>
+				var SlideView = Backbone.View.extend({ });
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='29' pageTitle='Backbone JS' subTitle="Lets Simplify." punchLine="demo">
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='30' pageTitle='Backbone JS' subTitle="" punchLine="And we broke the back button of browser.">
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='31' pageTitle='Backbone JS' subTitle="" punchLine="The fix ! Router">
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</slide>
+	<slide pageNumber='32' pageTitle='Backbone JS' subTitle="" punchLine="Thank you.">
+		<description>
+			<![CDATA[
+				
+			]]>
+		</description>
+	</slide>
+</slides>
